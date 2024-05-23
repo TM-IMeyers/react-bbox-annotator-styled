@@ -1,5 +1,5 @@
 {
-  "name": "react-bbox-annotator",
+  "name": "react-bbox-annotator-styled",
   "version": "0.3.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,10 +15,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/younesZdDz/react-bbox-annotator"
+    "url": "https://github.com/TM-IMeyers/react-bbox-annotator-styled"
   },
   "bugs": {
-    "url": "https://github.com/younesZdDz/react-bbox-annotator/issues"
+    "url": "https://github.com/TM-IMeyers/react-bbox-annotator-styled/issues"
   },
   "scripts": {
     "ts-build": "rm -rf ./dist/** && tsc",
@@ -50,7 +50,7 @@
     }
   },
   "dependencies": {
-    "react": "^17.0.1",
+    "react": "18.3.1",
     "react-dom": "^17.0.1",
     "react-jss": "^10.5.0",
     "uuidv4": "^6.2.6"

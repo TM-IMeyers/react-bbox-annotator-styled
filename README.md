@@ -14,20 +14,24 @@ React bounding box annotator
 
 ## Installation
 -------
-Using [npm](https://www.npmjs.com/package/react-bbox-annotator):
+Using [npm](https://www.npmjs.com/package/react-bbox-annotator-styled):
 
-    $ npm install react-bbox-annotator --save
+    $ npm install react-bbox-annotator-styled --save
+
+    OR
+
+    $ yarn add react-bbox-annotator-styled --save
 
 Then, using a module bundler that supports  ES2015 modules, such as [webpack](https://github.com/webpack/webpack):
 
 ```js
-import BBoxAnnotator from 'react-bbox-annotator';
+import BBoxAnnotator from 'react-bbox-annotator-styled';
 ```
 ## Basic example
 -------
 ```js
 import React, { useState } from 'react';
-import BBoxAnnotator, { EntryType } from 'react-bbox-annotator';
+import BBoxAnnotator, { EntryType } from 'react-bbox-annotator-styled';
 
 const App: React.FC = () => {
     const labels = ['Mama cow', 'Baby cow'];
