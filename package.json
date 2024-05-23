@@ -10,7 +10,7 @@
     "typescript",
     "npm"
   ],
-  "author": "ZADI Younes",
+  "author": "ZADI Younes / Isaac Meyers",
   "description": "A bounding box annotator component",
   "license": "MIT",
   "repository": {

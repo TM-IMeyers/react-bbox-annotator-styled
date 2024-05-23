@@ -18,7 +18,7 @@ interface Props {
     onSubmit: (label: string) => void;
 }
 const LabelBox = React.forwardRef<any, Props>(({ inputMethod, ...props }, forwardedRef) => {
-    const classes = useStyles(props);
+    const classes = useStyles({ inputMethod, ...props });
     const [value, setValue] = useState('');
     const changeHandler = (e: React.ChangeEvent<HTMLInputElement> | React.ChangeEvent<HTMLSelectElement>) => {
         setValue(e.target.value);
